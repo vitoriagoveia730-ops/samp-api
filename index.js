@@ -28,13 +28,13 @@ app.get('/servers', async (req, res) => {
                 queryServer(ip, port, (data) => {
                     if (data) {
                         resolve({
-                            nome: server.nome,
+                            nome: data.hostname || server.nome,
                             ip: server.ip,
                             ...data
                         });
                     } else {
                         resolve({
-                            nome: server.nome,
+                            nome: data.hostname || server.nome,
                             ip: server.ip,
                             players: 0,
                             maxPlayers: 0,
