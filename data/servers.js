@@ -1,8 +1,8 @@
 // Lista de servidores cadastrados manualmente
 const servers = [
     {
-        nome: "Servidor RP 1",
-        ip: "127.0.0.1:7777"
+        nome: "tropical rp",
+        ip: "149.56.41.55:7770"
     },
     {
         nome: "Servidor RP 2",
