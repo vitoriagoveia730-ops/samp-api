@@ -1,8 +1,8 @@
 // Lista de servidores cadastrados manualmente
 const servers = [
     {
-        nome: "tropical",
-        ip: "149.56.41.55:7770"
+        nome: "tropical rp01",
+        ip: "143.20.0.136:7777"
     }
 ];
 
